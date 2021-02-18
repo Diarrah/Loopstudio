@@ -36,8 +36,7 @@ const Footer = ({ navlinks }) => {
                             </radialGradient>
                         </defs>
                     </svg>
-
-                    <div className="border border--ig" />
+                    <span className="border border--ig" />
                 </span>
                 <span>
                     <img src={pin} alt="Pinterest company logo" />
