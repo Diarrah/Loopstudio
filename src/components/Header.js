@@ -29,7 +29,10 @@ const Header = ({ navlinks, viewport }) => {
                 </ul>
             </nav>
             <h1>Immersive experiences that deliver</h1>
-            <button className={`menu__btn${open ? ' active' : ''}`} onClick={() => setOpen(!open)}>
+            <button 
+                className={`menu__btn${open ? ' active' : ''}`} 
+                onClick={() => setOpen(!open)} 
+                aria-label="Button to deploy & undeploy mobile menu">
                 <img className="close" src={close} alt="" />
                 <img className="hamburger" src={hamburger} alt="" />
             </button>
