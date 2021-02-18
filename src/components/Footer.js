@@ -17,7 +17,7 @@ const Footer = ({ navlinks }) => {
             <div className="footer__social__links">
                 <span>
                     <img src={fb} alt="Facebook company logo" />
-                    <div className="border border--fb" />
+                    <span className="border border--fb" />
                 </span>
                 <span>
                     <img src={twitter} alt="Twitter company logo" />
@@ -31,7 +31,7 @@ const Footer = ({ navlinks }) => {
                         <path d="M5 0.25H19C21.6234 0.25 23.75 2.37665 23.75 5V19C23.75 21.6234 21.6234 23.75 19 23.75H5C2.37665 23.75 0.25 21.6234 0.25 19V5C0.25 2.37665 2.37665 0.25 5 0.25Z" stroke="url(#paint0_radial)" stroke-width="0.5"/>
                         <defs>
                             <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(24 -0.5) rotate(133.854) scale(35.3624)">
-                            <stop stop-color="#9B36B7"/>
+                            <stop offset="0" stop-color="#9B36B7"/>
                             <stop offset="1" stop-color="#ECA922"/>
                             </radialGradient>
                         </defs>
@@ -41,7 +41,7 @@ const Footer = ({ navlinks }) => {
                 </span>
                 <span>
                     <img src={pin} alt="Pinterest company logo" />
-                    <div className="border border--pin" />
+                    <span className="border border--pin" />
                 </span>
             </div>
             <small className="footer__copyright">© 2021 Loopstudios. All rights reserved.</small>
