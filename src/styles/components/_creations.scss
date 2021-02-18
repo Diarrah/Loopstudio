@@ -75,7 +75,10 @@
                 filter: brightness(.65);
             }
 
-            h4 {
+            span {
+                display: inline-block;
+                font-family: 'Alata', sans-serif;
+                text-transform: uppercase;
                 position: absolute;
                 bottom: 30px; left: 20px;
                 font-size: 1.75em;
@@ -89,7 +92,7 @@
             }
 
             &:hover {
-                h4 {
+                span {
                     color: black;
                     transform: translateY(-20px);
                     text-shadow: 1px 2px 5px rgba(black, .2);
