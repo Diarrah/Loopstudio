@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+body {
+    padding: 0 8vw;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 15px;
+    font-family: 'Alata', sans-serif;
+
+    @media screen and (min-width: 1700px) {
+        font-size: 24px;
+    }
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+
+    li a {
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+    }
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
