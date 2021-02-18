@@ -39,7 +39,7 @@ const Header = ({ navlinks, viewport }) => {
             <div className={`mobile__menu${open ? ' active' : ''}`}>
                 <ul>
                     {navlinks.map((link) => (
-                        <li><a> {link} </a></li>
+                        <li><a onClick={() => setOpen(!open)}> {link} </a></li>
                     ))}
                 </ul>
             </div>
