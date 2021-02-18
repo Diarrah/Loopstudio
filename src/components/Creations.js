@@ -15,7 +15,7 @@ const Creations = ({ viewport }) => {
                             src={require(`../images/${viewport > 768 ? 'desktop' : 'mobile'}/${creation.image}`).default} 
                             alt={`${creation.title} thumbnail`}
                         />
-                        <h4>{creation.title}</h4>
+                        <span>{creation.title}</span>
                     </button>
                 ))}
             </div>
